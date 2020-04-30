@@ -78,7 +78,7 @@ export default class Index extends Vue {
   head() {
     return {
       titleTemplate: null,
-      title: 'Perfume 画像診断'
+      title: 'Perfume AI画像診断'
     }
   }
 

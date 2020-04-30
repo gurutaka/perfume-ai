@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="is-size-1 has-text-centered has-text-weight-bold">
-      Perfume 画像診断
+      Perfume AI画像診断
     </header>
 
     <nuxt />

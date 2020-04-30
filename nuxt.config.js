@@ -8,7 +8,7 @@ export default {
     htmlAttrs: {
       prefix: 'og: http://ogp.me/ns#'
     },
-    title: 'Perfume 画像診断',
+    title: 'Perfume AI画像診断',
     meta: [
       { charset: 'utf-8' },
       { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
@@ -28,7 +28,7 @@ export default {
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: 'Perfume 画像診断'
+        content: 'Perfume AI画像診断'
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
@@ -36,7 +36,7 @@ export default {
         property: 'og:url',
         content: 'https://perfume-ai.kikagaku.net/'
       },
-      { hid: 'og:title', property: 'og:title', content: 'Perfume 画像診断' },
+      { hid: 'og:title', property: 'og:title', content: 'Perfume AI画像診断' },
       {
         hid: 'og:description',
         property: 'og:description',
