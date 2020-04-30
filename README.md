@@ -32,7 +32,7 @@ api フォルダにコード一式を載せています。
 
 ## Perfume AI model script
 
-deep_learning フォルダに、Perfume AI の学習済みモデルを作るコードを載せています。
+`api/deep_learning/main` に、Perfume AI の学習済みモデルを作るコードを載せています。
 
 ### 実行環境
 
@@ -40,4 +40,4 @@ deep_learning フォルダに、Perfume AI の学習済みモデルを作るコ�
 - PyTorch：1.4.0
 - PyTorch Lightning：0.7.4
 
-画像データは各自、用意する必要があります。
+画像データは各自、用意して下さい。
