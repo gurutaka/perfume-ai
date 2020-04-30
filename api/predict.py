@@ -51,8 +51,10 @@ class FineTuningNet(pl.LightningModule):
 
         self.eval()
         self.freeze()
-        self.load_state_dict(torch.load('model_0429.pt', map_location='cpu'))
-        # self.load_state_dict(torch.load('model.pt', map_location='cpu'))
+        self.load_state_dict(
+            torch.load(
+                './models/model_0429.pt',
+                map_location='cpu'))
 
         # open cv
         self.face_cascade = cv2.CascadeClassifier(
