@@ -48,7 +48,7 @@
         ※ Perfume以外の画像の場合、特徴が似ているメンバーの確率が表示されます。
         <br />
         <strong>
-          頻繁におかしな数字を叩き出しますが、大目に見てやって下さいmm
+          頻繁におかしな数字を叩き出しますので、ご注意下さい！！！
         </strong>
       </p>
     </div>
@@ -157,6 +157,7 @@ export default class Index extends Vue {
 
 .msg {
   margin-bottom: 50px;
+  padding: 0 20px;
 }
 
 @media only screen and (max-device-width: 480px) {
